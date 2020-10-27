@@ -6,7 +6,6 @@ public class BoundedWaitList<E> extends WaitList<E> {
     public BoundedWaitList(int capacity) {
         this.capacity = capacity;
     }
-
     public int getCapacity() {
         return capacity;
     }

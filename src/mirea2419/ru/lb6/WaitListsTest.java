@@ -9,7 +9,6 @@ public class WaitListsTest {
 
         System.out.println(list);
         System.out.println("isEmpty?   " + list.isEmpty());
-
         list.add(5);
         list.add(2);
         list.add(4);
