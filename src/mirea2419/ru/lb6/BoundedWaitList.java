@@ -10,14 +10,12 @@ public class BoundedWaitList<E> extends WaitList<E> {
     public int getCapacity() {
         return capacity;
     }
-
     @Override
     public void add(E element) {
         if (content.size() < capacity) {
             super.add(element);
         }
     }
-
     @Override
     public String toString() {
         return "BoundedWaitList{" +
